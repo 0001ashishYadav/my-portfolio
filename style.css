@@ -261,7 +261,7 @@
   background-color: aqua;
   color: black;
   box-shadow: 0px 0px 20px aqua;
-  animation: bounce 1s 1;
+  animation: bounce 1s 1 ease-in-out;
 }
 
 @keyframes bounce {
