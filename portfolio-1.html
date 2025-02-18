@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="portfolio-1.css" />
+    <title>Portfolio-1</title>
+
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <p class="port-title">Portfolio.</p>
+        <div class="info-sec-div">
+          <p>Home</p>
+          <p>About</p>
+          <p>Portfolio</p>
+          <p>Service</p>
+          <p>Contact</p>
+        </div>
+        <div class="header-menu-icon">
+          <button class="menuBtn" onclick="popup()">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="menu-popup-main-con hidden" id="popupToggle">
+        <a>Home</a>
+        <a>About</a>
+        <a>Portfolio</a>
+        <a>Service</a>
+        <a>Contact</a>
+      </div>
+
+      <div class="hero-sec">
+        <div class="hero-left-sec">
+          <p class="hero-left-sec-p1">ASHISH YADAV</p>
+          <div class="wrapper-sec">
+            <p class="hero-left-sec-p2">I am a</p>
+            <p id="prg"></p>
+            <div class="blink-line"></div>
+          </div>
+          <p class="hero-left-sec-p3">
+            👋 Hi, I’m Ashish Yadav 💻 Software Developer | Full Stack Web
+            Developer 🛠️ Experienced in HTML, CSS, Java Script, Tailwind,
+            Bootstrap, Postman ...
+          </p>
+
+          <div class="hero-left-sec-btns-div-lg">
+            <button>Download CV</button>
+            <div class="btn-img-div">
+              <a href="https://github.com/0001ashishYadav" target="_blank">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+            <div class="btn-img-div">
+              <a
+                href="https://www.linkedin.com/in/ashish-yadav-608a67349/"
+                target="_blank"
+              >
+                <p class="linkedin-p">in</p>
+              </a>
+            </div>
+            <div class="btn-img-div">
+              <i class="bi bi-twitter"></i>
+            </div>
+            <div class="btn-img-div">
+              <i class="bi bi-youtube"></i>
+            </div>
+          </div>
+
+          <div class="hero-left-sec-btns-div-sm">
+            <button>Download CV</button>
+            <div class="btn-img-div">
+              <a href="https://github.com/0001ashishYadav" target="_blank">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+            <div class="btn-img-div">
+              <!-- <i class="bi bi-linkedin"></i> -->
+              <p class="linkedin-p">in</p>
+            </div>
+            <div class="btn-img-div">
+              <i class="bi bi-twitter"></i>
+            </div>
+            <div class="btn-img-div">
+              <i class="bi bi-youtube"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right-sec">
+          <div class="user-img-main-con">
+            <div class="user-img-rotrating-div">
+              <div class="user-img-rotrating-left-div"></div>
+              <div class="user-img-rotrating-right-div"></div>
+            </div>
+            <div class="user-img-main-con-up-div"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="aboutSec">
+      <div class="about-left-sec"></div>
+      <div class="about-right-sec"></div>
+    </div>
+
+    <script src="portfolio-1.js"></script>
+  </body>
+</html>
